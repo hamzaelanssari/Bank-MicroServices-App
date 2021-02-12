@@ -3,7 +3,7 @@ server:
 spring:
   cloud:
     discovery:
-      enabled: false
+      enabled: true
   application:
     name: client-service
   datasource:

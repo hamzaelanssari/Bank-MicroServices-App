@@ -13,4 +13,4 @@ spring:
         - id: r2
           uri: http://127.0.0.1:8082/
           predicates:
-            - Path= /accounts/**
+            - Path= /comptes/**

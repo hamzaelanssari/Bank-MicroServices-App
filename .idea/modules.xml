@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Bank-App.iml" filepath="$PROJECT_DIR$/.idea/Bank-App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Client-Service/Client-Service.iml" filepath="$PROJECT_DIR$/Client-Service/Client-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Discovery-Service/Discovery-Service.iml" filepath="$PROJECT_DIR$/Discovery-Service/Discovery-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gateway-Service/Gateway-Service.iml" filepath="$PROJECT_DIR$/Gateway-Service/Gateway-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Compte-Operations-Service/compte-operations-service.iml" filepath="$PROJECT_DIR$/Compte-Operations-Service/compte-operations-service.iml" />
+    </modules>
+  </component>
+</project>

@@ -23,6 +23,6 @@ public class GatewayServiceApplication {
     RouteLocator gatewayRoutes(RouteLocatorBuilder builder){
         return builder.routes()
                 .route(r->r.path("/clients/**").uri("http://localhost:8081/").id("r1"))
-                .route(r->r.path("/accounts/**").uri("http://localhost:8082/").id("r2")).build();}
- }
+                .route(r->r.path("/comptes/**").uri("http://localhost:8082/").id("r2")).build();}
+
 }
