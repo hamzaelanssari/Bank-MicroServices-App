@@ -1,0 +1,13 @@
+server:
+  port: 8082
+spring:
+  cloud:
+    discovery:
+      enabled: false
+  application:
+    name: account-service
+  datasource:
+    url: jdbc:h2:mem:bank-db
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

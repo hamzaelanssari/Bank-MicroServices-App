@@ -1,0 +1,32 @@
+### POST COMPTE
+POST http://localhost:8001/comptes
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": null,
+  "solde": 4000,
+  "type": "COURANT",
+  "etat": "ACTIVE",
+  "idClient": 1,
+  "dateCreation": "11-02-2021 11:10:10"
+}
+
+### GET COMPTES
+GET http://localhost:8001/comptes
+
+
+### GET OPERATIONS
+GET http://localhost:8001/operations
+
+### GET OPERATIONS
+POST http://localhost:8001/versement
+Accept: application/json
+Content-Type: application/json
+
+{
+  "compteId": 1,
+  "montant":2000,
+  "type": "DEBIT"
+}
+

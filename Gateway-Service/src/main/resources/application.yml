@@ -1,0 +1,16 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      routes:
+        - id: r1
+          uri: http://127.0.0.1:8081/
+          predicates:
+            - Path= /clients/**
+        - id: r2
+          uri: http://127.0.0.1:8082/
+          predicates:
+            - Path= /accounts/**
